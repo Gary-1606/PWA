@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Todo PWA</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" type="text/css" href="/src/styles/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/src/styles/main.css"> 
+</head>
+<body>
+    <header class="header row">
+        <div class="col-sm-6">
+        <h1 class="header__title">TODO PWA</h1>
+        </div>
+        <div class="col-sm-6">
+            <div class="pull-right">
+                <button id="butRefresh" class="headerButton btn-refresh" aria-label="Refresh"></button>
+                <button id="butAdd" class="headerButton btn-add" aria-label="Add"></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="list-view__contents">
+            <div class="list-view__item" id="vm-d231b4f70cdbf99a" data-url="d231b4f70cdbf99a" tabindex="3">
+                <div class="list-view__item-details">
+                <div class="list-view__item-title">hello</div></div>
+            </div>
+        </div>
+        <div class="form-group input-container">
+            <div>
+                <label for="To Do List">To Do List:</label>
+            </div>
+            <textarea rows="5" cols="50"></textarea>
+        </div>
+        <div class="form-group pull-right">
+            <button type="button" class="btn btn-success">Save</button>
+        </div>    
+    </main>
+
+<script src="/src/js/app.js" async></script>
+</body>
+</html>
